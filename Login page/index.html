@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script src="index.js"></script>
+<style>
+ 
+
+        
+        
+        
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height:100vh;
+        background-image: url('night.jpg');
+        background-size: cover;
+    }
+
+    .user{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        height: 200px;
+        position: absolute;
+        right: 750px;
+    }
+
+    .password{
+        font-family:Georgia, 'Times New Roman', Times, serif; 
+        position: absolute;
+        height: 150px;
+        left: 855px;
+    }
+    
+    .wrapper{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        position: absolute;
+        top: 300px;
+    }
+
+    .wrapper{
+        width: 440px;
+        height: 200px;
+        background-color: #fbf0ff;
+        color: rgb(81, 51, 95);
+        opacity: 0.6;
+        border-radius: 20%;
+    }
+
+    .wrapper h1{
+        position: absolute;
+        right: 200px;
+    }
+  
+    .button1 {
+        background-color: rgb(85, 67, 136);
+        width: 80px;
+        height: 40px;
+        border: 2;
+        position: relative;
+        bottom: 20px;
+        right: 35px;
+        border-radius: 20%;
+        border-color: white;
+        font-style: italic;
+        color: white;
+    }
+
+    
+</style>
+<body>
+    
+ 
+    
+   
+    
+
+    <form action="action"></form>
+    <div class="wrapper">
+        <h1>Login</h1>
+    </div>
+    
+    <div class="user">
+        <label for="Username">Username</label>
+        <input type="text" placeholder="Enter Username" id="user">
+    </div>
+
+    <div class="password">
+        <label for="Password">Password</label>
+        <input type="password" placeholder="Enter Password" id="pass">
+    </div>
+        
+    <button onclick="saywelcome()" class= "button button1">Sign in</button> 
+
+
+</body>
+</html>
